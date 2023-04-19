@@ -51,7 +51,7 @@ function PortfolioThumb(props) {
                         <i className="fas fa-globe"></i> link to the project
                     </a>
                     <br />
-                    <a href={project.hitHubUrl}>
+                    <a href={project.gitHubUrl}>
                         <i className="fab fa-github"></i> link to github repository
                     </a>
                 </div>
