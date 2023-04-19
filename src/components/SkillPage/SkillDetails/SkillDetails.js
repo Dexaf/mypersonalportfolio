@@ -12,11 +12,11 @@ function SkillDetails(props) {
             <img src={courseCertification} alt={courseTitle} />
         </div>
         <div className="column is-8 content">
-            <h2 className="is-size-2 pb-3" style={{ "borderBottom": "1px solid #a7a7a7" }}>
+            <h2 className="is-size-2 is-size-3-mobile pb-3" style={{ "borderBottom": "1px solid #a7a7a7" }}>
                 {courseTitle}
             </h2>
             <div>
-                <h4 className="is-size-4">
+                <h4 className="is-size-4 is-size-5-mobile">
                     <i className="fa-solid fa-person-digging"></i> Experience
                 </h4>
                 <progress className="progress is-info" value={courseExperience} max="100">
@@ -24,7 +24,7 @@ function SkillDetails(props) {
             </div>
             <div className="columns pt-5">
                 <div className="column">
-                    <h4 className="is-size-4">
+                    <h4 className="is-size-4 is-size-5-mobile">
                         <i className="fa-solid fa-cloud"></i> My thought
                     </h4>
                     <p>
@@ -33,7 +33,7 @@ function SkillDetails(props) {
                 </div>
                 {courseUsage.length > 0 &&
                     <div className="column">
-                        <h4 className="is-size-4">
+                        <h4 className="is-size-4 is-size-5-mobile">
                             <i className="fa-solid fa-diagram-project"></i> Project where used
                         </h4>
                         <ul>

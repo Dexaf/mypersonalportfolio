@@ -31,11 +31,11 @@
     background: rgb(255, 0, 111);
 }
 
-.linkedinColor{
+.linkedinColor {
     background: #0A66C2;
 }
 
-.whatsappColor{
+.whatsappColor {
     background: #44A225;
 }
 
@@ -45,4 +45,26 @@
 
 .is-animated {
     transition: all 0.3s;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contactCard {
+        height: 100px;
+        width: 100px;
+    }
+
+    .contactCard>i {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .contactCard {
+        height: 50px;
+        width: 50px;
+    }
+
+    .contactCard>i {
+        font-size: 30px;
+    }
 }

@@ -19,7 +19,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <main className='container py-5'>
+            <main className='container p-5'>
                 <Routes>
                     <Route path='/' element={<Navigate replace to='/AboutMe' />}>
                     </Route>

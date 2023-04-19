@@ -1,5 +1,5 @@
 function Footer() {
-    return <footer className="columns is-multiline has-text-centered has-background-white">
+    return <footer className="columns is-multiline has-text-centered has-background-white mx-0">
         <div className="column is-4">
         </div>
         <div className="column is-4">

@@ -21,11 +21,11 @@ function AboutMe() {
 
     return <>
         <Card classes="mb-5">
-            <h1 className="is-size-1 has-text-centered">
+            <h2 className="is-size-2 has-text-centered">
                 Something about <b>Federico Pisa</b>
-            </h1>
+            </h2>
         </Card>
-        <Card classes="columns column is-10 m-0 my-5">
+        <Card classes="columns m-0 my-5">
             <div className="column is-4 is-flex is-align-items-center">
                 <PhotoCarousel photos={photosSuit} hasAutoPlay={true} hasLoop={true} />
             </div>
@@ -45,7 +45,7 @@ function AboutMe() {
                 </p>
             </div>
         </Card>
-        <Card classes="columns column is-10 is-offset-2 mb-0 mt-5">
+        <Card classes="columns m-0 mt-5">
             <div className="column is-8">
                 <h4 className="is-size-4 is-bold">Hobbies</h4>
                 <p className="content">

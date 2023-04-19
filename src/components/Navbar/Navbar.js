@@ -1,17 +1,25 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+
+    const [isMenuOpened, setIsMenuOpened] = useState(false);
+    const toggle = () => {
+        setIsMenuOpened(!isMenuOpened)
+    }
+
+
     return <>
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <span role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span role="button" className={(isMenuOpened ? "is-active " :" ") + "navbar-burger"} aria-label="menu" aria-expanded="false" data-target="navbar" onClick={toggle}>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </span>
             </div>
 
-            <div id="navbarBasicExample" className="navbar-menu">
+            <div id="navbar" className={(isMenuOpened ? "is-active " :" ") + "navbar-menu"}>
                 <div className="navbar-start">
                     <Link className="navbar-item" to="/AboutMe">
                         <i className="fa-solid fa-user"></i> &nbsp; About me
