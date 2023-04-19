@@ -11,7 +11,7 @@
         ],
         "description":"This is the website you are currently on, i've made it with react and used <a href='https://bulma.io' target='_blank'>Bulma</a> library as the css structure for spacing and base effects.<br/> All the data is stored in json files which i fetch to display things like the skills and projects you see.<br/> The website is currently hosted on <a href='https://www.netlify.com' target='_blank'>Netlify</a>.",
         "type": [
-            "front-end"
+            "Frontend"
         ],
         "onlineUrl":"https://federicopisaportfolio.netlify.app/Portfolio",
         "gitHubUrl":"https://github.com/Dexaf/mypersonalportfolio"
