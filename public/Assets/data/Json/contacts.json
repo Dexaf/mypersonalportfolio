@@ -1,0 +1,22 @@
+[
+    {
+        "href":"https://www.instagram.com/federico_pisa/",
+        "classIcon":"fa-brands fa-instagram",
+        "classColor":"instagramColor"
+    },
+    {
+        "href":"https://www.linkedin.com/in/federico-pisa-120422203/",
+        "classIcon":"fa-brands fa-linkedin",
+        "classColor":"linkedinColor"
+    },
+    {
+        "href":"tel:3335384289",
+        "classIcon":"fa-brands fa-whatsapp",
+        "classColor":"whatsappColor"
+    },
+    {
+        "href":"mailto:Federicopisajob@gmail.com",
+        "classIcon":"fa-solid fa-envelope",
+        "classColor":"mailColor"
+    }
+]

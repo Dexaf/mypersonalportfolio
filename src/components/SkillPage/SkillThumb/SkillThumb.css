@@ -1,0 +1,17 @@
+.skillthumb{
+    box-shadow: 1px 1px 3px rgb(109 109 109 / 68%);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer !important;
+    transition: all 0.2s;
+}
+
+.skillthumb:hover{
+    background-color: var(--main-color) !important;
+    color: white;
+}
+
+.skillthumb:active{
+    background-color: var(--main-color-hover) !important;
+    color: white;
+}

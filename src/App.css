@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+:root {
+    --main-color: rgb(32, 156, 255);
+    --main-color-hover: rgb(29, 129, 211);
+    --bg-color: rgb(166, 214, 254);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: openSans;
+    src: url(../public/Assets/fonts/OpenSans.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: openSansItalic;
+    src: url(../public/Assets/fonts/OpenSans-Italic.ttf);
 }
 
-.App-link {
-  color: #61dafb;
+* {
+    font-family: openSans;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i,
+.is-italic {
+    font-family: openSansItalic;
+}
+
+body {
+    background: --main-color !important;
+    background: linear-gradient(0deg, rgba(32, 156, 255, 1) 0%, rgba(104, 224, 207, 1) 100%) !important;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.is-bold {
+    font-weight: bold;
+}
+
+.is4rat3 {
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+
+.photos-bg {
+    background-color: #303030;
+}
+
+.content {
+    line-height: 2;
+}
+
+b {
+    color: var(--main-color);
+}
+
+.progress::-webkit-progress-value {
+    transition: width 0.5s ease;
+}
+
+.is-clickable {
+    cursor: pointer !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.itaBg {
+    background-image: url("/public/Assets/Img/itaFlag.png");
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+}
+
+.engBg {
+    background-image: url("/public/Assets/Img/engFlag.png");
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+}
+
+li>a {
+    color: black !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.LoadingBox {
+    width: 100%;
+    height: 300px;
+}
+
+.descriptionBox-xs {
+    background-color: var(--bg-color);
+    border-radius: 5px;
+    padding: 10px 15px;
+    overflow-y: auto;
+    height: 150px;
+}
+
+.lister-xs {
+    border: rgb(209, 209, 209) solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    list-style: disc;
+    padding: 10px 20px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.lister-xl {
+    border: rgb(209, 209, 209) solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    list-style: disc;
+    padding: 10px 20px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.no-border {
+    border-width: 0px !important;
+}
+
+/* overwrite bulma's box */
+.box {
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 28%), 0 0 0 1px rgb(10 10 10 / 20%) !important;
 }
