@@ -48,7 +48,7 @@ function PortfolioSelector(props) {
                 onFilterTypeOfSubSearch={filterTypeOfProject} />
         </div>
         <hr />
-        <div className="is-flex is-flex-wrap-wrap lister-xl no-border" style={{maxHeight:650}}>
+        <div className="is-flex is-flex-wrap-wrap lister-xl p-1 no-border" style={{maxHeight:650}}>
             {projectsFiltered.map((project, index) => {
                 return <PortfolioThumb key={index} project={project} />
             })}

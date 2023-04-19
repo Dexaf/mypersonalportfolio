@@ -21,7 +21,7 @@ function AboutMe() {
 
     return <>
         <Card classes="mb-5">
-            <h2 className="is-size-2 has-text-centered">
+            <h2 className="is-size-2 is-size-4-mobile has-text-centered">
                 Something about <b>Federico Pisa</b>
             </h2>
         </Card>

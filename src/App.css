@@ -118,12 +118,10 @@ a:active {
     height: 300px;
 }
 
-.descriptionBox-xs {
+.descriptionBox {
     background-color: var(--bg-color);
     border-radius: 5px;
     padding: 10px 15px;
-    overflow-y: auto;
-    height: 150px;
 }
 
 .lister-xs {

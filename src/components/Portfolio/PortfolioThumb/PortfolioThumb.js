@@ -5,7 +5,7 @@ function PortfolioThumb(props) {
     const project = props.project;
     const [mediaToggler, setMediaToggler] = useState(true);
 
-    return <div className="box">
+    return <div className="box p-1">
         <div className="columns m-0">
             <div className="column is-3 has-text-centered">
                 <h3 className="is-size-4 mb-3">
@@ -31,9 +31,9 @@ function PortfolioThumb(props) {
                 <h5 className="is-size-5">
                     Description
                 </h5>
-                <p className="descriptionBox-xs mb-3" dangerouslySetInnerHTML={{__html: project.description}}>
+                <p className="descriptionBox mb-3" dangerouslySetInnerHTML={{ __html: project.description }}>
                 </p>
-                <div>
+                <div className="mb-2">
                     <h5 className="is-size-5">
                         Used technologies
                     </h5>
@@ -45,7 +45,6 @@ function PortfolioThumb(props) {
                         })}
                     </ul>
                 </div>
-                <hr className="my-3" />
                 <div>
                     <a href={project.onlineUrl}>
                         <i className="fas fa-globe"></i> link to the project
