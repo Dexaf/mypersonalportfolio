@@ -1,116 +1,135 @@
 [
-    {
-        "title": "AngularJs",
-        "certification": "/Assets/Img/Certificati/ajs.jpg",
-        "experience": 70,
-        "description": "Good framework but have a lot of issues and it's really old, if you use it, change it.",
-        "usage": [
-            "Criluma WebSite",
-            "Old portfolio WebSite"
-        ],
-        "type": "Frontend"
-    },
-    {
-        "title": "Asp .Net MVC5",
-        "certification": "/Assets/Img/Certificati/aspnetMvc5.jpg",
-        "experience": 40,
-        "description": "Not bad, a big improvement from web form but i'm a big fan of only Js in front and let the backend do only backend stuff.",
-        "usage": [],
-        "type": "Miscellaneous"
-    },
-    {
-        "title": "Asp.NET core MVC + razor pages",
-        "certification": "/Assets/Img/Certificati/asp.NET core MVC + razor pages.jpg",
-        "experience": 0,
-        "description": "A much better project structure then MVC5 and it feels smoother.",
-        "usage": [],
-        "type": "Miscellaneous"
-    },
-    {
-        "title": "CSS",
-        "certification": "/Assets/Img/Certificati/css.jpg",
-        "experience": 70,
-        "description": "Not fan of big and weird animation, i'm from the school \"the less the better\".",
-        "usage": [],
-        "type": "Frontend"
-    },
-    {
-        "title": "HTML",
-        "certification": "/Assets/Img/Certificati/html.jpg",
-        "experience": 80,
-        "description": "Literally the foundation of my job.",
-        "usage": [],
-        "type": "Frontend"
-    },
-    {
-        "title": "JS",
-        "certification": "/Assets/Img/Certificati/js.jpg",
-        "experience": 80,
-        "description": "The language improved a ton during the last years.",
-        "usage": [],
-        "type": "Frontend"
-    },
-    {
-        "title": "MySQL",
-        "certification": "/Assets/Img/Certificati/mysql.jpg",
-        "experience": 50,
-        "description": "Used only on a superficial level, can't say anything on this one",
-        "usage": [],
-        "type": "Database"
-    },
-    {
-        "title": "PHP",
-        "certification": "/Assets/Img/Certificati/php.jpg",
-        "experience": 30,
-        "description": "Used only on a superficial level, can't say anything on this one but it feels a lot easier then a c# backend",
-        "usage": [],
-        "type": "Backend"
-    },
-    {
-        "title": "JQuery",
-        "certification": "/Assets/Img/Certificati/jq.jpg",
-        "experience": 70,
-        "description": "For the times where jquery was the main js library it was really the best.",
-        "usage": [],
-        "type": "Frontend"
-    },
-    {
-        "title": "Wordpress",
-        "certification": "/Assets/Img/Certificati/wpBase.jpg",
-        "experience": 60,
-        "description": "A good time saver for certain projects",
-        "usage": [
-            "Judo samurai website"
-        ],
-        "type": "Miscellaneous"
-    },
-    {
-        "title": "Github",
-        "certification": "/Assets/Img/Certificati/github.jpg",
-        "experience": 70,
-        "description": "Nothing to say on this one i love it",
-        "usage": [
-            "All of my project are on github"
-        ],
-        "type": "Miscellaneous"
-    },
-    {
-        "title": "React",
-        "certification": "/Assets/Img/Certificati/react.jpg",
-        "experience": 80,
-        "description": "Good for medium size projects, but can be a little dispersive.",
-        "usage": [
-            "Criluma UK",
-            "This website"
-        ],
-        "type": "Frontend"
-    },
-    {
-        "title": "Web component & Stencil.Js",
-        "certification": "/Assets/Img/Certificati/WebComponentEStencil.jpg",
-        "experience": 0,
-        "description": "A lot of potential but until it can replace all the js frameworks it's still going to be underused",
-        "usage": [],
-        "type": "Frontend"
-    }
+  {
+    "title": "AngularJs",
+    "certification": "/Assets/Img/Certificati/ajs.jpg",
+    "experience": 70,
+    "description": "Good framework but have a lot of issues and it's really old, if you use it, change it.",
+    "usage": [
+      "Criluma WebSite",
+      "Old portfolio WebSite"
+    ],
+    "type": "Frontend"
+  },
+  {
+    "title": "Angular 2",
+    "certification": "/Assets/Img/Certificati/angular2+.jpg",
+    "experience": 75,
+    "description": "My preferite framework for frontend, it guides you through the most difficult tasks, a lot of peoples says that it's 'too strict' but i like not having to rebuild the wheel or risking inifite loops in component rendering.",
+    "usage": [
+      "Criluma prototype WebSite",
+      "Aruba shop, client area and intranet"
+    ],
+    "type": "Frontend"
+  },
+  {
+    "title": "NodeJs and express",
+    "certification": "/Assets/Img/Certificati/nodejs-express.jpg",
+    "experience": 30,
+    "description": "A nice way to build a flexible back end, it become 'a good way' when you use it with typescript.",
+    "usage": [],
+    "type": "Backend"
+  },
+  {
+    "title": "Asp .Net MVC5",
+    "certification": "/Assets/Img/Certificati/aspnetMvc5.jpg",
+    "experience": 40,
+    "description": "Not bad, a big improvement from web form but i'm a big fan of only Js in front and let the backend do only backend stuff.",
+    "usage": [],
+    "type": "Miscellaneous"
+  },
+  {
+    "title": "Asp.NET core MVC + razor pages",
+    "certification": "/Assets/Img/Certificati/asp.NET core MVC + razor pages.jpg",
+    "experience": 0,
+    "description": "A much better project structure then MVC5 and it feels smoother.",
+    "usage": [],
+    "type": "Miscellaneous"
+  },
+  {
+    "title": "CSS",
+    "certification": "/Assets/Img/Certificati/css.jpg",
+    "experience": 70,
+    "description": "Not fan of big and weird animation, i'm from the school \"the less the better\".",
+    "usage": [],
+    "type": "Frontend"
+  },
+  {
+    "title": "HTML",
+    "certification": "/Assets/Img/Certificati/html.jpg",
+    "experience": 80,
+    "description": "Literally the foundation of my job.",
+    "usage": [],
+    "type": "Frontend"
+  },
+  {
+    "title": "JS",
+    "certification": "/Assets/Img/Certificati/js.jpg",
+    "experience": 80,
+    "description": "The language improved a ton during the last years.",
+    "usage": [],
+    "type": "Frontend"
+  },
+  {
+    "title": "MySQL",
+    "certification": "/Assets/Img/Certificati/mysql.jpg",
+    "experience": 50,
+    "description": "Used only on a superficial level, can't say anything on this one",
+    "usage": [],
+    "type": "Database"
+  },
+  {
+    "title": "PHP",
+    "certification": "/Assets/Img/Certificati/php.jpg",
+    "experience": 30,
+    "description": "Used only on a superficial level, can't say anything on this one but it feels a lot easier then a c# backend",
+    "usage": [],
+    "type": "Backend"
+  },
+  {
+    "title": "JQuery",
+    "certification": "/Assets/Img/Certificati/jq.jpg",
+    "experience": 70,
+    "description": "For the times where jquery was the main js library it was really the best.",
+    "usage": [],
+    "type": "Frontend"
+  },
+  {
+    "title": "Wordpress",
+    "certification": "/Assets/Img/Certificati/wpBase.jpg",
+    "experience": 60,
+    "description": "A good time saver for certain projects",
+    "usage": [
+      "Judo samurai website"
+    ],
+    "type": "Miscellaneous"
+  },
+  {
+    "title": "Github",
+    "certification": "/Assets/Img/Certificati/github.jpg",
+    "experience": 70,
+    "description": "Nothing to say on this one i love it",
+    "usage": [
+      "All of my project are on github"
+    ],
+    "type": "Miscellaneous"
+  },
+  {
+    "title": "React",
+    "certification": "/Assets/Img/Certificati/react.jpg",
+    "experience": 80,
+    "description": "Good for medium size projects, but can be a little dispersive.",
+    "usage": [
+      "Criluma UK",
+      "This website"
+    ],
+    "type": "Frontend"
+  },
+  {
+    "title": "Web component & Stencil.Js",
+    "certification": "/Assets/Img/Certificati/WebComponentEStencil.jpg",
+    "experience": 0,
+    "description": "A lot of potential but until it can replace all the js frameworks it's still going to be underused",
+    "usage": [],
+    "type": "Frontend"
+  }
 ]
